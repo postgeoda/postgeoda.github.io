@@ -520,6 +520,7 @@ code {
   cursor: pointer;
   font-size: 12px;
   margin-left: 15px;
+  float: right;
 }
 
 #content article {

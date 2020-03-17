@@ -7,7 +7,33 @@ layout: default
 </nav>
 
 <section id='content'>
-{% for post in site.posts %}
+<article>
+  <p>
+  <b>PostGeoDa</b> is a PostgreSQL extension for spatial data analysis. It aims to provide spatial 
+  data analysis functionalities that can be run in SQL:
+  </p>
+  <section >
+  <p style="display:block; padding: 5px; white-space: pre; background: black; border-radius: 4px; -webkit-border-radius: 4px;">
+    <code style="color: white; ">
+      <span style="color:bisque">-- create a Queen contiguity weights: </span>
+      <span style="color:blueviolet;font-weight: bolder;">SELECT</span> <span>geoda_weights_queen(gid, the_geom) 
+      <span style="color:blueviolet;font-weight: bolder;">FROM</span> natregimes; </span>
+
+      <span style="color:bisque">-- compute local Moran: </span>
+      <span style="color:blueviolet;font-weight: bolder;">SELECT</span> geoda_local_moran(<span style="color:chartreuse">"hr60"</span>, queen_w) <span style="color:blueviolet;font-weight: bolder;">OVER</span> ()
+      <span style="color:blueviolet;font-weight: bolder;">FROM</span> natregimes; </span>
+    </code>
+  </p>
+  </section>
+  <p>
+  PostGeoDa is developed using C and C++ based on the performance oriented libgeoda library. 
+  By utilizing spatial index and the architecture of PostgreSQL and PostGIS, it can achieve even better performance than
+  its sibling software GeoDa and libgeoda, and has the ability to handle real big spatial data.
+  </p>
+
+
+</article>
+{% for post in site.posts reversed %}
   <article class='{{ post.type }}'>
     <a name='{{ post.url }}' href='#{{ post.url }}'><h2>{% if post.type %}<code><b>{{ post.type }}</b> </code> {% endif %}{{ post.title }}</h2></a>
     <section class='body'>

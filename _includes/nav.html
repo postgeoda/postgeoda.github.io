@@ -9,7 +9,7 @@
   <li><h2>{{ category | first }}</h2>
     <ul>
     {% for posts in category %}
-      {% for post in posts %}        
+      {% for post in posts reversed %}        
         <li class='{{ post.type }}'><a href='#{{ post.url }}'>{{ post.title }}</a></li>
       {% endfor %}
     {% endfor %}

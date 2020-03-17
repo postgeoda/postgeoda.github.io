@@ -2,7 +2,7 @@
 category: Spatial Weights
 path: '/stuff'
 title: 'Create KNN Weights'
-type: ''
+type: 'v0.0.1'
 
 layout: nil
 ---
