@@ -30,6 +30,10 @@ Reference: [Loading GIS (Vector) Data using PostGIS](https://postgis.net/docs/ma
 * order integer default 1: order of contiguity
 * inc_lower boolean default FALSE: if include lower order neighbors
 
+**Return:**
+
+* bytea: the weights is returned in Postgresql's binary data type
+
 **Example:**
 
 To create a Queen contiguity weights using feature id "ogc_fid" and geometry 
