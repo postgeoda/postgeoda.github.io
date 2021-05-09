@@ -1,0 +1,13 @@
+{
+    "plugins": [
+        "hints",
+        "include-codeblock"
+    ],
+    "pluginsConfig": {
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "theme": "monokai"
+        }
+    }
+}
