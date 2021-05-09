@@ -33,8 +33,8 @@ SELECT skater(ARRAY[hr60, dv60, ue60], queen_weights) OVER() FROM natregimes;
 
 {% hint style="info" %}
 If you prefer running spatial data analysis in browser, please check out [jsgeoda](https://www.npmjs.com/package/jsgeoda).  
-If you prefer running spatial data analysis in Python, please check out pygeoda.  
-If you prefer running spatial data analysis in R, please check out rgeoda. 
+If you prefer running spatial data analysis in Python, please check out [pygeoda](https://geodacenter.github.io/pygeoda).  
+If you prefer running spatial data analysis in R, please check out [rgeoda](https://geodacenter.github.io/rgeoda). 
 {% endhint %}
 
 ## Contents
