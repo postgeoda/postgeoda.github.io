@@ -1,4 +1,4 @@
-# Installation 🖥️
+# 0. 🖥️ Installation
 
 ## Install from source
 
@@ -6,7 +6,7 @@
  To build from source, your PostgreSQL needs to include the development headers and utilities. 
 {% endhint %}
 
-With git, cmake and build essential tools, one can build and install postgeoda extension from source: 
+With git, cmake and build essential tools on Linux and Mac OS, one can build and install PostGeoDa extension from source: 
 
 ```bash
 git clone --recursive https://github.com/geodacenter/postgeoda

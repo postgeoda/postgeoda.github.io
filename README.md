@@ -41,7 +41,7 @@ If you prefer running spatial data analysis in R, please check out [rgeoda](http
 ## Contents
 
 * **Installation** 
-* **1 Map Classification** 
+* **1 Choropleth Mapping** 
   * Basic Mapping
   * Rate Mapping
   * Spatial Rate Mapping
