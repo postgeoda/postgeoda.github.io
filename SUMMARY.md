@@ -29,4 +29,3 @@
   * [6.1 HDBScan](5.-data-functions/6.1-hdbscan.md)
   * [6.2 Fast K-Medoids](5.-data-functions/6.2-fast-k-medoids.md)
 
-* [Tags](tags.md)
