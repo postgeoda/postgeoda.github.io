@@ -1,7 +1,0 @@
-{
-    "name": "PostGeoDa",
-    "description": "SQL API reference",
-    "version": "0.0.1",
-    "local": ["boot"],
-    "paths": ["lib"]
-}
